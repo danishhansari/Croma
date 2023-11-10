@@ -4,7 +4,7 @@ const Home = () => {
   const [current, setCurrent] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
-      if (current < carouselImages.length) {
+      if (current < carouselImages.length -1) {
         setCurrent(current + 1);
       } else {
         setCurrent(0);
