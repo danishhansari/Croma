@@ -11,7 +11,7 @@ const Home = () => {
       }
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [current, carouselImages]);
   return (
     <>
       <img
