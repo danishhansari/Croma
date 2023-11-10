@@ -1,0 +1,11 @@
+*{
+    font-family: "Cal Sans";
+}
+
+.nav-list li{
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+}
+.nav-list li:hover{
+    color:#1c4ed8;
+}
