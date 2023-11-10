@@ -1,4 +1,4 @@
-const carouselImages = [
+export const carouselImages = [
   {
     url: "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1699436791/Croma%20Assets/CMS/LP%20Page%20Banners/2023/HP%20Top%20Rotating%20Deals/November/10th%20Nov/Desktop/HP_FOD_ACs_10nov2023_lysymn.png?tr=w-2048",
     alt: "airConditioner",
@@ -24,5 +24,38 @@ const carouselImages = [
     alt: "Cricket",
   },
 ];
+export const usefulLinks = [
+  "Help and Support",
+  "FAQS",
+  "Buying Guide ",
+  "Return Policy",
+  "B2B Orders",
+  "Store Location",
+  "E-waste",
+];
+export const productsLinks = [
+  "Televisions & Accessories",
+  "Home Appliances",
+  "Phones & Wearables",
+  "Computers & Tablets",
+  "Kitchen Appliances",
+  "Audio & Video",
+  "Health & Fitness",
+];
+export const franchiseOpportunity = [
+  "Site Map",
+  "Career At Croma",
+  "Terms Of Use",
+  "Disclaimer",
+  "Privacy Policy",
+  "Unboxed",
+  "Gift Card",
+];
 
-export default carouselImages;
+export const groomingPersonal = [
+  "Cameras & Accessorie",
+  "Smart Devices",
+  "Gaming",
+  "Accessories",
+  "Top Brands",
+];

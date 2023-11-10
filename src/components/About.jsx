@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="flex items-center m-12">
+      <div className="flex items-center m-8 mt-28">
         <NavLink to="/" className="text-2xl hover:text-blue-500">
           Croma
         </NavLink>

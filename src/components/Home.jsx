@@ -1,4 +1,4 @@
-import carouselImages from "../data/data";
+import { carouselImages } from "../data/data";
 import { useEffect, useState } from "react";
 const Home = () => {
   const [current, setCurrent] = useState(0);
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <img
-        className="transition-all h-[25vh] md:h-[650px] w-full"
+        className="transition-all h-[25vh] md:h-[650px] mt-16 w-full"
         src={carouselImages[current].url}
       />
     </>
