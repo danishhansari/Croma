@@ -3,9 +3,9 @@ import {AiOutlineShoppingCart} from "react-icons/ai"
 const Navbar = () => {
   return (
     <>
-      <nav className="w-[90%] mx-auto flex justify-between items-center h-20">
+      <nav className="px-[2rem] flex justify-between items-center h-20 py-4 bg-zinc-800 w-full">
         <NavLink to="/">
-          <img className="w-40 md:w-60 " src="./logo.png" />
+          <img className="w-48" src="./logo.png" />
         </NavLink>
         <ul className="flex items-center nav-list">
           <li>
