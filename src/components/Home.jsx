@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <img
-        className="transition-all h-[25vh] md:h-[650px] mt-16 w-full"
+        className="transition-all h-[25vh] md:h-[650px] w-full"
         src={carouselImages[current].url}
       />
     </>

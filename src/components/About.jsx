@@ -1,12 +1,11 @@
-// import { NavLink } from "react-router-dom";
 import { BsChevronRight } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="flex items-center m-8 mt-28">
+      <div className="flex items-center m-8">
         <NavLink to="/" className="text-2xl hover:text-blue-500">
-          Croma
+          Home
         </NavLink>
         <BsChevronRight size={30} />
         <p className="text-2xl hover:text-blue-500">About Croma</p>

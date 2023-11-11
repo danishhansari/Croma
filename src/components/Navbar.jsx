@@ -3,7 +3,7 @@ import {AiOutlineShoppingCart} from "react-icons/ai"
 const Navbar = () => {
   return (
     <>
-      <nav className="px-[2rem] flex justify-between items-center h-20 py-4 bg-gray-800 w-full fixed top-0 bottom-4">
+      <nav className="px-[2rem] flex justify-between items-center h-20 py-4 bg-gray-800 w-full">
         <NavLink to="/">
           <img className="w-48" src="./logo.png" />
         </NavLink>
