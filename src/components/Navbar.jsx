@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 import {AiOutlineShoppingCart} from "react-icons/ai"
+import { useProductContext } from "../context/productContext";
 const Navbar = () => {
+  const value = useProductContext()
   return (
     <>
       <nav className="px-[2rem] flex justify-between items-center h-20 py-4 bg-gray-800 w-full">
@@ -15,6 +17,7 @@ const Navbar = () => {
             <NavLink to="/about">About</NavLink>
           </li>
           <li>
+            {value}
             <NavLink to="/products">Products</NavLink>
           </li>
           <li>
