@@ -21,7 +21,7 @@ const Navbar = () => {
             <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">
+            <NavLink to="/cart">
                 <AiOutlineShoppingCart className="text-3xl" />
             </NavLink>
           </li>
