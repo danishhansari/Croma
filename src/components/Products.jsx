@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 const Products = (currElem) => {
-  const { title, price, image, category } = currElem;
+  const { title, price, image, category, id } = currElem;
+
   return (
+    <NavLink to={`/singleproduct/${id}`}>
     <div className="mx-auto mt-11 w-36 md:w-80 transform overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-lg">
       <img
         className="h-48 mx-auto object-cover object-center"
@@ -23,6 +25,7 @@ const Products = (currElem) => {
         </div>
       </div>
     </div>
+    </NavLink>
   );
 };
 

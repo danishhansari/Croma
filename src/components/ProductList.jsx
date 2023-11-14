@@ -1,6 +1,7 @@
 import { useProductContext } from "../context/productContext";
 import Products from "./Products";
 
+
 const ProductList = () => {
   const { data } = useProductContext();
   return (
